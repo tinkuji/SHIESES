@@ -1,0 +1,21 @@
+BURPSUITE STEPS (use website vulnweb.com)
+burpsuite used for brute force attacks
+-temporary project
+-next next next
+-start burpsuite
+-go to proxy-turn intercept on
+-open browser-chromium opens
+-vulnweb.com
+-chromium doesnt load, click on forward on burpsuite until it loads
+-test login page- click forward until loads
+-enter uname, pswd (click frwd, until uname and pawsd displayed on burpsuite)
+-send to intruder
+-go to intruder, click on payloads
+-payload settings-enter random values and one correct ussername
+-positions-click clear$ button
+-select pswd-click Add $
+-once done, click start attack
+-once attack started-original uname will have the biggest length and fake unames will have same lengths
+-go to login page on chromium, login using the sname uname for uname and pswd
+-now check burpsuite, the pwsd will be changed by the uname
+-click forward until the page loads
