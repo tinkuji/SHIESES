@@ -1,0 +1,19 @@
+HTTP HTTPS STEPS
+
+HTTP and HTTPS difference
+HTTP is a type where the entered details in the form displays the contents in the URL of the website (thus, makes it vulnerable for attacks)
+HTTPS is a secure connection where the entered details is encrypted and showed in the URL
+
+-vulnweb.com
+-get the ip for this (url to ip website- https://www.site24x7.com/find-ip-address-of-web-site.html)
+-enter the ip in the filter for wireshark
+- write command: ip.addr==________ (the ip address for the website)
+-apply filter
+-open the login page on the vulnweb website
+-enter login credentials
+-switch to wireshark
+-search for an HTTP packet line which has POST method in the info section
+-on the down left hand side, look for "HTML form url encoded" and expand it
+-there you can see the uname and password that you entered
+
+HTTPS cannot be implemented as wireshark is not capable of capturing packets for a secure connection on the HTTPS website
