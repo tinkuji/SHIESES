@@ -1,0 +1,12 @@
+TCP Threeway Handshake
+
+-vulnweb.com
+-get the ip for this (url to ip website- https://www.site24x7.com/find-ip-address-of-web-site.html)
+-enter the ip in the filter for wireshark
+- write command: ip.addr==________ (the ip address for the website)
+-apply filter
+-open the login page on the vulnweb website
+-enter login credentials
+-switch to wireshark
+-look for the very first packet that shows the TCP protocol and right click on it and click follow and click 'TCP Stream'
+-look for the first packet that shows the [SYN] info and the first three packets are the three-way handshake that shows [SYN], [SYN,ACK], [ACK]
