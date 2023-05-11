@@ -8,13 +8,13 @@ burpsuite used for brute force attacks
 -vulnweb.com
 -chromium doesnt load, click on forward on burpsuite until it loads
 -test login page- click forward until loads
--enter uname, pswd (click frwd, until uname and pawsd displayed on burpsuite)
+-enter uname=test, pswd=test (click frwd, until uname and pawsd displayed on burpsuite)
 -send to intruder
 -change the attack type from 'sniper' to 'cluster bombs'
--go to intruder, click on payloads
--payload settings-enter random values and one correct ussername
--positions-click clear$ button
--select pswd-click Add $
+-go to intruder, click on payload set 1
+enter details
+click on payload set 2
+enter details
 -once done, click start attack
 -once attack started-original uname will have the biggest length and fake unames will have same lengths
 -go to login page on chromium, login using the sname uname for uname and pswd
