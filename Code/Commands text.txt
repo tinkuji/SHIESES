@@ -1,0 +1,17 @@
+
+1. ipconfig
+2. arp -a 
+3. netstat
+4. nslookup
+5. systeminfo
+6. tracert
+7. getmac
+8. route print 
+9. hostname
+10.netsh wlan show profile "your network without quotes" key=clear
+11. tasklist
+12. netstat -ab
+
+sudo apt-get install hping3
+sudo hping3 -1 --flood ipaddress
+sudo hping3 -1 -c 3 ipaddress
