@@ -10,6 +10,7 @@ burpsuite used for brute force attacks
 -test login page- click forward until loads
 -enter uname, pswd (click frwd, until uname and pawsd displayed on burpsuite)
 -send to intruder
+-change the attack type from 'sniper' to 'cluster bombs'
 -go to intruder, click on payloads
 -payload settings-enter random values and one correct ussername
 -positions-click clear$ button
